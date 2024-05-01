@@ -10,7 +10,7 @@
   tasks:
   - name: install MySQL server
     ansible.builtin.dnf:
-      name: mysql
+      name: mysql-server
       state: latest
 
   - name: start and enable MySQL server
