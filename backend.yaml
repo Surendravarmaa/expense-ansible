@@ -16,7 +16,7 @@
       name: "{{ item }}"
       state: installed
     loop:
-    - node.js
+    - nodejs
     - mysql
 
   - name: create expense user
