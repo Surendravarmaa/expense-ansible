@@ -1,5 +1,5 @@
 - name: configure backend server
-  hosts: 172.31.21.170
+  hosts: backend
   become: yes
   vars:
     login_host: 172.31.21.4
